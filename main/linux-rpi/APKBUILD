@@ -67,7 +67,7 @@ _genconfig() {
 	case "$CARCH" in
 		armhf) defconfig=bcmrpi_defconfig;;
 		armv7) defconfig=bcm2709_defconfig;;
-		aarch64) defconfig=bcm2711_defconfig;;
+		aarch64) defconfig=bcm2712_defconfig;;
 		*) die "Unknown CARCH: $CARCH" ;;
 	esac
 
